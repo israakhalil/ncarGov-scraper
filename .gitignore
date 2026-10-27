@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.scrapy/
+
+# crawl outputs (keep only samples/)
+*.xlsx
+*.csv
+output*.json
+ncarGovSa.json
+
+!samples/
+!samples/*.json
